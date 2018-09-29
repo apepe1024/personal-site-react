@@ -1,0 +1,41 @@
+/* ================== */ @media (max-width: 1024px) /* ================== */ {
+
+/*=============Avatar profile pic===========*/
+
+  .avatar {
+      max-width: 300px;
+  }
+
+
+  /*=============Scholarship banner===========*/
+
+  .google {
+      max-width: 200px;
+      position: absolute; left: 72%;
+  }
+
+
+/*=============Social Media Buttons===========*/
+
+  .social-grid-container {
+      max-width: 500px;
+      grid-gap: 20%;
+  }
+
+  .social-button {
+      max-width: 75px;
+      max-height: 75px;
+  }
+}
+
+/*=============Portfolio buttons===========*/
+
+.portfolio-grid-container {
+    max-width: 800px;
+    grid-column-gap: 0%;
+}
+
+.portfolio-button {
+    max-width: 200px;
+    max-height: 200px;
+}

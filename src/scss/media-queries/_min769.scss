@@ -1,0 +1,39 @@
+/* ================== */ @media (min-width: 769px) /* ================== */ {
+
+/*=============Scholarship banner===========*/
+
+.google {
+    max-width: 200px;
+    transition: transform 0.5s;
+}
+
+.google:hover {
+    transform: scale(1.7) translate(0%,20%);
+}
+
+/*=============Avatar profile pic===========*/
+
+  .avatar {
+      /* Filtering */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+      filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+      transition: filter 0.5s;
+  }
+
+  .avatar:hover {
+      /* Filter Transition */
+      -webkit-filter: grayscale(0);
+      filter: none;
+  }
+
+/*=============Buttons===========*/
+
+  .social-button:hover,
+  .resume-button:hover,
+  .portfolio-button:hover {
+      /* Filter Transition */
+      filter: contrast(100%) brightness(100%);
+      transform: rotate(1turn);
+  }
+}

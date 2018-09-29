@@ -1,0 +1,16 @@
+/*=============Avatar profile pic===========*/
+
+.avatar-container{
+    position: relative;
+}
+
+.avatar {
+    /* Shadow */
+    box-shadow: 5px 15px 20px -5px rgba(0,0,0, 0.8);
+    /* Shape */
+    border-radius: 50%;
+    /* Positioning */
+    position: absolute; left: 50%; top: 10%;
+    max-width: 500px;
+    transform: translate(-50%,25%);
+}

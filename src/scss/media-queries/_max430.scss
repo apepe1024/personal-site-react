@@ -1,0 +1,47 @@
+/* ================== */  @media (max-width: 430px) /* ================== */ {
+
+/*=============Scholarship banner===========*/
+.google {
+    display: none;
+}
+
+/*====================Captions==================*/
+
+  .sub-caption1 {
+      left: -0.5vw;
+  }
+
+  .sub-caption2 {
+      left: 45vw;
+  }
+
+  .sub-caption3 {
+      left: -1.5vw;
+  }
+
+  .sub-caption4 {
+      left: 29.5vw;
+      width: 69%;
+  }
+
+  /*=============Portfolio buttons===========*/
+
+  .portfolio-grid-container {
+      max-width: 400px;
+  }
+
+  .portfolio-button {
+      padding: 0 0 0 5vw;
+      margin-left: 6px;
+      max-width: 100px;
+      max-height: 100px;
+  }
+
+  .brace-query-button {
+      padding: 0 0 0 10vw;
+      margin-left: 23px;
+      max-width: 100px;
+      max-height: 100px;
+
+  }
+}

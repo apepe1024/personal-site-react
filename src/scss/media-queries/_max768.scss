@@ -1,0 +1,64 @@
+/* ================== */ @media (max-width: 768px) /* ================== */ {
+
+
+
+
+/*===============Captions================*/
+
+  .sub-caption1 {
+      left: -0.5vw;
+  }
+
+  .sub-caption2 {
+      left: 42.5vw;
+  }
+
+  .sub-caption3 {
+      left: -1.5vw;
+  }
+
+  .sub-caption4 {
+      left: 32vw;
+      width: 67%;
+  }
+
+/*=============Social Media Buttons===========*/
+
+  .social-grid-container {
+      max-width: 300px;
+      grid-gap: 9%;
+  }
+
+  /*=============Resume buttons===========*/
+
+  .resume-grid-container {
+      padding: 10vh 0 0 0;
+      max-width: 300px;
+      grid-gap: 0%;
+  }
+
+  .resume-button {
+      max-width: 100px;
+      max-height: 100px;
+  }
+
+  /*=============Portfolio buttons===========*/
+
+  .portfolio-grid-container {
+      max-width: 600px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-column-gap: 0%;
+  }
+
+  .portfolio-button {
+      max-width: 200px;
+      max-height: 200px;
+  }
+
+  .brace-query {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+}

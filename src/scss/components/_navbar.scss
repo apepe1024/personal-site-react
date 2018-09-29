@@ -1,0 +1,17 @@
+/*============Navbar============*/
+
+.navbar,
+.modal-header {
+    background-color: #111;
+}
+
+.navbar,
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+    transition: font-size 0.5s;
+}
+
+.navbar-brand:hover {
+    font-size: 1.1rem
+}

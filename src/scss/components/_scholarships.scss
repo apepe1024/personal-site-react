@@ -1,0 +1,16 @@
+/*=============Scholarship banner===========*/
+
+.scholarship {
+    position: relative;
+    padding-top: 50px;
+}
+
+.google {
+    /* Shadow */
+    box-shadow: 5px 15px 20px -5px rgba(0,0,0, 0.8);
+    /* Shape */
+    border-radius: 0 0 25% 25%;
+    /* Positioning */
+    position: absolute; left: 65%;
+    max-width: 200px;
+}

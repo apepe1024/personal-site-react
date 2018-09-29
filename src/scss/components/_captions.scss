@@ -1,0 +1,89 @@
+/*====================Captions==================*/
+
+.caption,
+.mid-caption,
+.sub-caption1,
+.sub-caption2,
+.sub-caption3,
+.sub-caption4,
+.footer-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.footer-caption {
+    margin-top: -20px;
+}
+
+.upper-border,
+.mid-border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    border-radius: 5%;
+}
+
+.sub-border {
+  background-color: #111;
+  color: #fff;
+  padding: 5px 18px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  border-radius: 5%;
+}
+
+.label-border {
+  background-color: #111;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 5%;
+}
+
+.label-caption {
+  width: auto;
+  justify-items: center;
+}
+
+.portfolio-label-caption,
+.resume-label-caption {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 5px auto;
+  justify-items: center;
+}
+
+.mid-caption {
+    top: 10%;
+  }
+
+.sub-caption1 {
+    top: 30%;
+    left: 5vw;
+    width: 65%;
+}
+
+.sub-caption2 {
+    top: 47.5%;
+    left: 35vw;
+    width: 55%;
+}
+
+.sub-caption3 {
+    top: 65%;
+    left: 4.75vw;
+    width: 65%;
+}
+
+.sub-caption4 {
+    top: 82.5%;
+    left: 28vw;
+    width: 65%;
+}

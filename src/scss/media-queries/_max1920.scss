@@ -1,0 +1,39 @@
+/* ================== */ @media (max-width: 1920px) /* ================== */ {
+
+/*=============Captions=============*/
+
+  .upper-border,
+  .mid-border {
+      font-size: 25px;
+  }
+
+  .sub-caption1 {
+      left: -1vw;
+      width: 65%;
+  }
+
+  .sub-caption2 {
+      left: 41vw;
+  }
+
+  .sub-caption3 {
+      left: -1.5vw;
+  }
+
+  .sub-caption4 {
+      left: 35vw;
+      width: 64%;
+  }
+
+/*=============Social Media Buttons===========*/
+
+  .social-grid-container {
+      max-width: 900px;
+      grid-gap: 0%;
+  }
+
+  .social-button {
+      max-width: 125px;
+      max-height: 125px;
+  }
+}
